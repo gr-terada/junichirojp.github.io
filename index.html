@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CakePHP3翻訳会</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/cosmo/bootstrap.min.css">
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- Bootlint -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootlint/0.12.0/bootlint.min.js"></script>
+</head>
+
+<body>
+<section class="text-center">
+  <h1>CakePHP3翻訳会</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-left">
+        <div class="list-group">
+          <h4 class="list-group-item-heading">リンク集翻訳の原文</h4>
+          <p class="list-group-item-text">http://book.cakephp.org/3.0/en</p>
+        </div>
+        <div class="list-group">
+          <h4 class="list-group-item-heading">翻訳用のVagrant File</h4>
+          <p class="list-group-item-text">https://github.com/waterada/cakephp_docs_vagrant</p>
+        </div>
+        <div class="list-group">
+          <h4 class="list-group-item-heading">fbの翻訳公開グループ</h4>
+          <p class="list-group-item-text">https://www.facebook.com/groups/469140879787423/</p>
+        </div>
+        <div class="list-group">
+          <h4 class="list-group-item-heading">手順</h4>
+          <ol>
+            <li>上記VagrantFileのURL内、ReadMeをみて、ローカルの翻訳環境を構築してください。</li>
+            <li>fbの翻訳公開グループと周りのお友達に聞いて、まだ未着手の翻訳したいページを決めてください。</li>
+            <li>翻訳するページが決まったら、上記公開グループに「このページを翻訳します」と宣言してください。この情報が他メンバーの重複を避ける貴重な行動となります。</li>
+            <li>その日のうちに当日の翻訳した内容をpushしましょう。これであなたは悪夢から解放されます。</li>
+            <li>最後まで完成を待たずに他メンバーに翻訳結果を報告しましょう。思わぬ誤訳は他人のツッコミで解消されます。</li>
+            <li>Enjoy!!</li>
+          </ol>
+        </div>
+
+        <hr>
+
+        <div class="list-group">
+          <h4 class="list-group-item-heading">2系と3系の英文の差分を見ながら翻訳する方法</h4>
+          <p>2系と3系のdocsをローカルに持ってきて、英文ファイルの差分を見ながら、2系の日本語ファイルを修正していく場合の準備方法</p>
+          <ol>
+            <li>cakeのdocsを開く<br>https://github.com/cakephp/docs</li>
+            <li>自分のgithubリポジトリへforkする<br>※右上のForkってボタン</li>
+            <li>ローカルの適当なディレクトリへcloneする（2系がマスタなので2系が取れる。）<br>git clone https://github.com/kazu56/docs.gitなど</li>
+            <li>ローカルの別のディレクトリへ3系をチェックアウトする。<br>git checkout origin/3.0</li>
+            <li>2系と3系のdocs\enのファイルのdiffを取って差分を見ながら翻訳をやっていく。<br>※差分はwinmergeなどのdiffツールやphpstormのCtrl+Dで！</li>
+            <li>Enjoy!!</li>
+          </ol>
+        </div>
+
+        <hr>
+
+        <div class="list-group">
+          <h4 class="list-group-item-heading">みんなのフォーク一覧</h4>
+          <p class="list-group-item-text">https://docs.google.com/spreadsheets/d/1dEqlq34DnztT20S61MW28cJOY_FLCz335-kCygPxGqA/pubhtml?gid=0&single=true</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <p>CakePHP3翻訳会</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
